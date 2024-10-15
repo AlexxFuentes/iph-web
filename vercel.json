@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "public": true,
+    "builds": [
+      {
+        "src": "index.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "page/Carreras.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/page/Carreras",
+        "dest": "/page/Carreras.html"
+      }
+    ]
+  }
+  
